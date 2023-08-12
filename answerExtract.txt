@@ -1,0 +1,9 @@
+let tag = document.querySelectorAll('.color-success') 
+let tagString = '[' 
+
+tag.forEach((item)=>{
+  tagString = tagString + `'${item.previousElementSibling.textContent}',`
+    
+})
+
+tagString = tagString + ']'

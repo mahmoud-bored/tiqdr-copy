@@ -246,9 +246,10 @@ function killIframe() {
 function openIframe(card, section, name){
     killIframe()
     document.body.innerHTML += `
+
         <div class="iframe-container">
             <iframe class="iframe" src="${cards[card].sections[section][name]}" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            <div class="iframe-killer" onclick="killIframe()"></div>
         </div>
-        <div class="iframe-container-killer" onclick="killIframe()"></div>
     `
 }

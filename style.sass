@@ -1,0 +1,113 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+a
+    all: unset
+html
+    body
+        height: 100%
+        width: 100%
+        background-color: #333
+        display: flex
+        align-items: center
+        flex-direction: column
+        header
+            position: sticky
+            top: 0
+            height: 60px
+            width: 100%
+            background-color: #333
+            display: flex
+            justify-content: center
+            align-items: center
+            box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.47)
+            z-index: 1
+            h1
+                color: #fe6602
+                font-weight: bold
+                margin-bottom: 11px
+        main
+            height: 100%
+            width: 90%
+            .flex-container
+                overflow: auto
+                display: flex
+                flex-direction: row-reverse
+                gap: 40px
+                padding: 50px 20px 0 20px
+                box-shadow: 0px 0px 36px -21px rgba(0,0,0,0.75) inset
+                background-color: #222
+                .card-outer-container
+                    position: relative
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    flex-wrap: wrap
+                    margin-bottom: 30px
+                    .title-container
+                        height: 50px
+                        width: 150px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        background-color: #fe6602
+                        border-radius: 50px
+                        position: absolute
+                        top: -25px
+                        color: #fff
+                    .card-inner-container
+                        display: flex
+                        align-items: center
+                        flex-direction: column
+                        height: fit-content
+                        border-radius: 10px
+                        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.47)
+                        min-width: 350px
+                        max-width: 350px
+                        background-color: #333
+                        .group-section-container
+                            width: 90%
+                            margin-top: 35px
+                            direction: rtl
+                            .group-title
+                                font-size: 1.1em
+                                font-family: "nashra-variable",sans-serif
+                                font-variation-settings: 'wght' 300
+                                color: #fff
+                            .group-elements-container
+                                margin-right: 5px
+                                .group-element
+                                    border: rgba(49, 49, 49, 0.5) 1px solid
+                                    border-radius: 35px
+                                    padding: 11px 18px 10px 10px
+                                    display: flex
+                                    align-items: center
+                                    margin-top: 10px
+                                    cursor: pointer
+                                    font-family: "portada-arabic-variable",sans-serif
+                                    font-variation-settings: 'wght' 400
+                                    background-color: #222
+                                    color: #fff
+                                    transition: background-color 0.3s ease
+                                    &:hover
+                                        background-color: #0d995f
+                                    .group-element-tag
+                                        img
+                                            width: 30px
+                                            height: 30px
+                                    .group-element-text
+                                        margin-right: 10px
+                                        margin-bottom: 2px
+
+
+                            
+                        hr
+                            height: 2px
+                            width: 90%
+                            border-width: 0
+                            color: rgba(117, 117, 117, 0.5)
+                            background-color: rgba(117, 117, 117, 0.5)
+                            margin-bottom: 10px
+                            margin-top: 10px
+

@@ -33,6 +33,7 @@ html body .iframe-container .iframe {
   height: 90%;
   border-radius: 10px;
   z-index: 4;
+  background-color: #333;
 }
 html body .iframe-container .iframe-killer {
   position: fixed;

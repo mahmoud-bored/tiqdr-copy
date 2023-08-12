@@ -84,6 +84,13 @@ const cards = {
                 "محاضرة 5 الاحصاء و الاحتمالات": "https://www.youtube.com/embed/B64LfpkEck0?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
                 "حل واجب محاضرة 5": "https://www.youtube.com/embed/fMlMPU4hkD0?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
             },
+            6:{
+                tag: ["test", "video", "video"],
+                title: "اختبار 2 , 3 | الأسبوع الثاني",
+                "اختبار 2 | مستوى متوسط ": "#",
+                "حل اختبار 2": "https://www.youtube.com/embed/2VplLG5zrC4?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "حل اختبار 3": "https://www.youtube.com/embed/8Uhy-hXdJtE?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+            }
         }
     },
     card3: {
@@ -141,7 +148,8 @@ const cards = {
         }
     },
 }
-
+const test1 = ["أ", "أ", "ب", "ج", "ب", "أ", "ج", "ب", "ب", "أ", "ج", "ج", "ب", "أ", "ج", "أ", "ج", "أ", "ج", "أ", "أ", "ب", "ج", "ب", "أ", "ب", "ج", "ب", "ب", "أ",]
+const test2 = ['ج','د','أ','أ','ب','أ','ب','ب','ب','ب','ج','ج','ب','ب','ج','ج','ب','د','أ','ج',]
 function createCards(cardsObj){
     const main = document.querySelector('main')
 

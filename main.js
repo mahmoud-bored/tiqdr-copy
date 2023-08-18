@@ -149,8 +149,9 @@ const cards = {
         title: "الأسبوع الرابع",
         sections: {
             0:{
-                tag: [],
-                title: "NaN"
+                tag: ["file"],
+                title: "ملفات",                
+                "ملف شرح الأسبوع الرابع": "https://drive.google.com/file/d/1mOEOgWGn8VxAaEmS16NK_wYevo2dVo_W/view?usp=sharing",
             }
         }
     },

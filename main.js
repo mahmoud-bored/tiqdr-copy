@@ -97,8 +97,51 @@ const cards = {
         title: "الأسبوع الثالث",
         sections: {
             0:{
-                tag: [],
-                title: "NaN"
+                tag: ["file"],
+                title: "ملفات",
+                "ملف شرح الأسبوع الثالث": "https://drive.google.com/file/d/1VsKax-ybaqlBYpcaHVA_oBMZZKDickgQ/view?usp=sharing"
+            },
+            1:{
+                tag: ["video", "video"],
+                title: "معلومات عن الزوايا",
+                "شرح المحاضرة 1": "https://www.youtube.com/embed/mNsQ9RCypTw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب المحاضرة 1": "https://www.youtube.com/embed/VSg2yyrZMPA?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            2:{
+                tag: ["video", "video"],
+                title: "محاضرة 2 | المثلث ومتباين المثلث",
+                "محاضرة 2 معلومات عن المثلث": "https://www.youtube.com/embed/sHAGCYTsN48?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 2": "https://www.youtube.com/embed/e7cMBqNVC7o?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            3:{
+                tag: ["video", "video"],
+                title: "محاضرة 3 | المثلث 30 - 60 والمثلث 45 - 45",
+                "شرح المحاضرة 3 المثلث ال 30-60 والمثلث 45-45": "https://www.youtube.com/embed/_nIArVqE_pc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "حل واجب محاضرة 3": "https://www.youtube.com/embed/djL01ZvdFFM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+            },
+            4:{
+                tag: ["video", "video"],
+                title: "محاضرة 4 | مساحة ومحسيط المستطيل",
+                "شرح محاضرة 4 مساحة ومحيط المستطيل": "https://www.youtube.com/embed/M_xGnNQSrhQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "حل واجب محاضرة 4": "https://www.youtube.com/embed/tLYAQHh4qEs?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+            },
+            5:{
+                tag: ["video", "video"],
+                title: "محاضرة 5 | مساحة ومحيط المربع والمعين",
+                "فيديو شرح محاضرة 5 مساحة ومحيط المربع والمعين": "https://www.youtube.com/embed/JBuSYeXB4pg?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "حل واجب محاضرة 5": "https://www.youtube.com/embed/ZVcSW86x8iw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+            },
+            6:{
+                tag: ["video", "video"],
+                title: "محاضرة 6 | المتوازي و شبة المنحرف و المساحات المظللة",
+                "فيديو شرح محاضرة 6 المتوازي و شبة المنحرف و المساحات المظللة": "https://www.youtube.com/embed/L9sRzNeBWdo?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=11",
+                "حل واجب محاضرة 6": "https://www.youtube.com/embed/Rks9lnOFADc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=12"
+            },
+            7:{
+                tag: ["video", "video"],
+                title: "محاضرة 7 | مساحة و محيط الدائرة",
+                "فيديو شرح محاضرة 7 مساحة و محيط الدائرة": "https://www.youtube.com/embed/qsL77u2FwEI?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
+                "حل واجب محاضرة 7": "https://www.youtube.com/embed/pvv7bUSF5jE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
             }
         }
     },

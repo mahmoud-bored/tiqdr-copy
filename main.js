@@ -142,6 +142,14 @@ const cards = {
                 title: "محاضرة 7 | مساحة و محيط الدائرة",
                 "فيديو شرح محاضرة 7 مساحة و محيط الدائرة": "https://www.youtube.com/embed/qsL77u2FwEI?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
                 "حل واجب محاضرة 7": "https://www.youtube.com/embed/pvv7bUSF5jE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
+            },
+            8:{
+                tag: ["test", "video", "test", "video"],
+                title: "اختبار 1, 2 | الأسبوع الثالث",
+                "اختبار 1 | الأسبوع الثالث": "#",
+                "حل اختبار 1": "https://www.youtube.com/embed/9aMe0dlEsMk?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "اختبار 2 متفوقين | الأسبوع الثالث": "#",
+                "حل اختبار 2 متفوقين": "https://www.youtube.com/embed/TlVRRkDK-kE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2"
             }
         }
     },

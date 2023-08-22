@@ -160,6 +160,24 @@ const cards = {
                 tag: ["file"],
                 title: "ملفات",                
                 "ملف شرح الأسبوع الرابع": "https://drive.google.com/file/d/1mOEOgWGn8VxAaEmS16NK_wYevo2dVo_W/view?usp=sharing",
+            },
+            1:{
+                tag: ["video", "video"],
+                title: "شرح الباب الثالث و الخامس من المعاصر 8",
+                "محاضرة 1 المربعات الكاملة و الدوريات": "https://www.youtube.com/embed/VHM2V_lvPtU?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 1 ملف 4": "https://www.youtube.com/embed/turNCJ9h9vo?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            2:{
+                tag: ["video", "video"],
+                title: "شرح محاضرة 2 الانماط",
+                "شرح محاضرة 2 الانماط": "https://www.youtube.com/embed/_mZrwtsEFi4?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 2 ملف 4": "https://www.youtube.com/embed/PVxFuToaMuo?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            3:{
+                tag: ["video", "video"],
+                title: "شرح محاضرة 3 قوانين القدرات",
+                "فيديو شرح محاضر 3 قوانين القدرات": "https://www.youtube.com/embed/qRKSWrtTgkA?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "شرح واجب محاضرة 3 ملف 4": "https://www.youtube.com/embed/-ZHe-hfWK1U?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
             }
         }
     },

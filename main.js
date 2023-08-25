@@ -3,8 +3,8 @@ const cards = {
         title: "الأسبوع الأول",
         sections: {
             0:{
-                tag: ["file"],
-                title: "ملفات",
+                tag: ["video"],
+                title: "فيديوهات",
                 "ملف شرح الأسبوع الأول": "https://drive.google.com/file/d/1oH9snHZpBuCCn0XvlAFXGtHBa0URoXLc/view?usp=sharing",
             },
             1:{
@@ -171,13 +171,13 @@ const cards = {
                 tag: ["video", "video"],
                 title: "شرح محاضرة 2 الانماط",
                 "شرح محاضرة 2 الانماط": "https://www.youtube.com/embed/_mZrwtsEFi4?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
-                "حل واجب محاضرة 2 ملف 4": "https://www.youtube.com/embed/PVxFuToaMuo?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "حل واجب محاضرة 2 ملف 4": "https://www.youtube.com/embed/PVxFuToaMuo?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
             },
             3:{
                 tag: ["video", "video"],
                 title: "شرح محاضرة 3 قوانين القدرات",
-                "فيديو شرح محاضر 3 قوانين القدرات": "https://www.youtube.com/embed/qRKSWrtTgkA?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
-                "شرح واجب محاضرة 3 ملف 4": "https://www.youtube.com/embed/-ZHe-hfWK1U?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "فيديو شرح محاضر 3 قوانين القدرات": "https://www.youtube.com/embed/qRKSWrtTgkA?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "شرح واجب محاضرة 3 ملف 4": "https://www.youtube.com/embed/-ZHe-hfWK1U?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
             }
         }
     },

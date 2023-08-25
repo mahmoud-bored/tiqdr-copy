@@ -144,6 +144,18 @@ const cards = {
                 "حل واجب محاضرة 7": "https://www.youtube.com/embed/pvv7bUSF5jE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
             },
             8:{
+                tag: ["video", "video"],
+                title: "محاضرة 8 شرح التوازي - مساحة القطاع",
+                "شرح محاضرة 8 ملف 3 التوازي و مساحة القطاع": "https://www.youtube.com/embed/W3RPjDEavQE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 8 ملف 3": "https://www.youtube.com/embed/mzzpbqCZnWY?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2"
+            },
+            9:{
+                tag: ["video", "video"],
+                title: "محاضرة 9 الاشكال ثلاثية الابعاد",
+                "شرح محاضرة 9 الاشكال ثلاثية الابعاد": "https://www.youtube.com/embed/8rHhYhU3hbk?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 9 ملف 3": "https://www.youtube.com/embed/jAyy5roZ2BM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            10:{
                 tag: ["test", "video", "test", "video"],
                 title: "اختبار 1, 2 | الأسبوع الثالث",
                 "اختبار 1 | الأسبوع الثالث": "#",
@@ -178,6 +190,29 @@ const cards = {
                 title: "شرح محاضرة 3 قوانين القدرات",
                 "فيديو شرح محاضر 3 قوانين القدرات": "https://www.youtube.com/embed/qRKSWrtTgkA?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
                 "شرح واجب محاضرة 3 ملف 4": "https://www.youtube.com/embed/-ZHe-hfWK1U?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            4:{
+                tag: ["video", "video"],
+                title: "شرح محاضرة 4 قابلية القسم و الزاوية بين العقربين",
+                "شرح قابلية القسمة و الزاوية بين العقربين": "https://www.youtube.com/embed/xka9h9p4PXQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 4 ملف 4": "https://www.youtube.com/embed/ZUppXGIYiLg?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            5:{
+                tag: ["video", "video"],
+                title: "محاضرة 1 ملف 5 طريقة التجربة",
+                "شرح طريقة التجربة في حل المعادلات و التمارين اللفظية": "https://www.youtube.com/embed/5aTk-7iBwoQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 1 ملف 5": "https://www.youtube.com/embed/VKQcXYOjKPI?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            6:{
+                tag: ["video", "video"],
+                title: "محاضرة 2 ملف 5 طريقة التجربة لحل الاعمار و الاوراق النقدية",
+                "فيديو شرح الاعمار و الاوراق النقدية": "https://www.youtube.com/embed/BNy-4xDesvQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "حل واجب محاضرة 2 - ملف 5": "https://www.youtube.com/embed/hcNsZdFkMtM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6"
+            },
+            7:{
+                tag: ["video", "video"],
+                title: 'محاضرة 3 الرسم لحل تمارين الكسور',
+                "شرح طريقة الرسم لحل تمارين الكسور": "https://www.youtube.com/embed/OJKwO8QqKsQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
             }
         }
     },

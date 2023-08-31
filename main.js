@@ -85,10 +85,11 @@ const cards = {
                 "حل واجب محاضرة 5": "https://www.youtube.com/embed/fMlMPU4hkD0?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
             },
             6:{
-                tag: ["test", "video", "video"],
+                tag: ["test", "video", "test", "video"],
                 title: "اختبار 2 , 3 | الأسبوع الثاني",
                 "اختبار 2 | مستوى متوسط ": "#",
                 "حل اختبار 2": "https://www.youtube.com/embed/2VplLG5zrC4?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "اختبار 3 | متفوقين": "#",
                 "حل اختبار 3": "https://www.youtube.com/embed/8Uhy-hXdJtE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
             }
         }
@@ -220,8 +221,44 @@ const cards = {
         title: "الأسبوع الخامس",
         sections: {
             0:{
-                tag: [],
-                title: "NaN"
+                tag: ["file"],
+                title: "ملفات",
+                "ملف شرح الأسبوع الخامس": "https://drive.google.com/file/d/1wiFYD81OikQqQ_VnIgWO2QnpJcpKtqWB/view?usp=sharing",
+            },
+            1:{
+                tag: ["video", "video"],
+                title: "محاضرة 1 | الأعداد العشرية",
+                "شرح محاضرة 1 الاعداد العشرية": "https://www.youtube.com/embed/f71vKTmnQ9k?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 1 ملف 6": "https://www.youtube.com/embed/jAH6r-Y07Ds?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            2:{
+                tag: ["video", "video"],
+                title: "محاضرة 2 تابع الاعداد العشرية",
+                "فديو شرح محاضرة 2 تابع الاعداد العشرية": "https://www.youtube.com/embed/Ox91aQL3Arg?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 2 ملف 6": "https://www.youtube.com/embed/KKafqzR8FXU?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            3:{
+                tag: ["video", "video"],
+                title: "محاضرة 3 تجميعات على الاعداد العشرية",
+                "شرح محاضرة 3 تجميعات الاعداد العشرية": "https://www.youtube.com/embed/3758w-UUNgw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "حل واجب محاضرة 3 - ملف 6": "https://www.youtube.com/embed/FWBbByFdLJk?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+            },
+            4:{
+                tag: ["video", "video"],
+                title: "محاضرة 4 شرح الكسور",
+                "فيديو شرح الكسور": "https://www.youtube.com/embed/8PltVmjagq0?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "حل واجب محاضرة 4 ملف 6": "https://www.youtube.com/embed/NTvwnxzQKMM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+            },
+            5:{
+                tag: ["video", "video"],
+                title: "محاضرة 5 تابع الكسور",
+                "فيديو تابع شرح الكسور": "https://www.youtube.com/embed/n44_8QA6n0k?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "حل واجب محاضرة 5 ملف 6": "https://www.youtube.com/embed/dlaV0ekjIS0?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+            },
+            6:{
+                tag: ["test",],
+                title: "اختبار الأسبوع الخامس",
+                "NaN": "#"
             }
         }
     },

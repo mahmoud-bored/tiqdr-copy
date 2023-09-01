@@ -268,7 +268,7 @@ const cards = {
                 "واجب محاضرة 7 ملف 6": "https://www.youtube.com/embed/dcd8g-Cu4Sc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
             },
             8:{
-                tag: ["test",],
+                tag: ["video", "video"],
                 title: "محاضرة 8 الجذور",
                 "شرح محاضرة 8 الجذور": "https://www.youtube.com/embed/OTLbbwP4s4M?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
                 "شرح واجب 8 ملف 6": "https://www.youtube.com/embed/yCe3u0XhNGw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9"

@@ -256,10 +256,23 @@ const cards = {
                 "حل واجب محاضرة 5 ملف 6": "https://www.youtube.com/embed/dlaV0ekjIS0?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
             },
             6:{
+                tag: ["video", "video"],
+                title: "محاضرة 6 تابع الكسور",
+                "شرح محاضرة 6 تابع الكسور": "https://www.youtube.com/embed/w_BO-Wify0E?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "شرح واجب محاضرة 6 ملف 6": "https://www.youtube.com/embed/dcd8g-Cu4Sc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+            },
+            7:{
+                tag: ["video", "video"],
+                title: "محاضرة 7 تجميعات على الكسور",
+                "شرح محاضرة 7 تجميعات على الكسور": "https://www.youtube.com/embed/LVM9JUVRFxg?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "واجب محاضرة 7 ملف 6": "https://www.youtube.com/embed/dcd8g-Cu4Sc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+            },
+            8:{
                 tag: ["test",],
-                title: "اختبار الأسبوع الخامس",
-                "NaN": "#"
-            }
+                title: "محاضرة 8 الجذور",
+                "شرح محاضرة 8 الجذور": "https://www.youtube.com/embed/OTLbbwP4s4M?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "شرح واجب 8 ملف 6": "https://www.youtube.com/embed/yCe3u0XhNGw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9"
+            },
         }
     },
     card6: {

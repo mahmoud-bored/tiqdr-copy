@@ -274,7 +274,7 @@ const cards = {
                 "شرح واجب 8 ملف 6": "https://www.youtube.com/embed/yCe3u0XhNGw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9"
             },
             9:{
-                tag: ["video", "video"],
+                tag: ["test", "test"],
                 title: "اختبارات الأسبوع الخامس",
                 "اختبار الأسبوع السادس (مستوى متوسط)": "#",
                 "اختبار الأسبوع السادس (مستوى متفوقين)": "#",

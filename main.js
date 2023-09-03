@@ -273,14 +273,21 @@ const cards = {
                 "شرح محاضرة 8 الجذور": "https://www.youtube.com/embed/OTLbbwP4s4M?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
                 "شرح واجب 8 ملف 6": "https://www.youtube.com/embed/yCe3u0XhNGw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9"
             },
+            9:{
+                tag: ["video", "video"],
+                title: "اختبارات الأسبوع الخامس",
+                "اختبار الأسبوع السادس (مستوى متوسط)": "#",
+                "اختبار الأسبوع السادس (مستوى متفوقين)": "#",
+            }
         }
     },
     card6: {
         title: "الأسبوع السادس",
         sections: {
             0:{
-                tag: [],
-                title: "NaN"
+                tag: ["file"],
+                title: "ملفات",
+                "ملف شرح الأسبوع السادس": "https://drive.google.com/file/d/1qEuiEAmxq7o4970RRi4tq2lkr3z7KPH9/view?usp=sharing"
             }
         }
     },

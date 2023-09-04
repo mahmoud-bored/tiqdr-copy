@@ -274,7 +274,7 @@ const cards = {
                 "شرح واجب 8 ملف 6": "https://www.youtube.com/embed/yCe3u0XhNGw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9"
             },
             9:{
-                tag: ["test", "test"],
+                tag: ["video", "video"],
                 title: "اختبارات الأسبوع الخامس",
                 "اختبار الأسبوع السادس (مستوى متوسط)": "#",
                 "اختبار الأسبوع السادس (مستوى متفوقين)": "#",
@@ -288,6 +288,18 @@ const cards = {
                 tag: ["file"],
                 title: "ملفات",
                 "ملف شرح الأسبوع السادس": "https://drive.google.com/file/d/1qEuiEAmxq7o4970RRi4tq2lkr3z7KPH9/view?usp=sharing"
+            },
+            1:{
+                tag: ["video", "video"],
+                title: "محاضرة 1 ملف 7 تابع الجذور",
+                "شرح محاضرة 1 تابع الجذور": "https://www.youtube.com/embed/kAnd8E7yCGQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 1 ملف 7": "https://www.youtube.com/embed/pHyCwvWUylA?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            2:{
+                tag: ["video", "video"],
+                title: "محاضرة 2 شرح الاسس",
+                "شرح محاضرة 2 قوانين الاسس": "https://www.youtube.com/embed/XLl5i9zdxiw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "حل واجب محاضرة 2 ملف 7": "https://www.youtube.com/embed/aq_e4zo_Jro?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
             }
         }
     },

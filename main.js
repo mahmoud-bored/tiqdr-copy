@@ -300,6 +300,12 @@ const cards = {
                 title: "محاضرة 2 شرح الاسس",
                 "شرح محاضرة 2 قوانين الاسس": "https://www.youtube.com/embed/XLl5i9zdxiw?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
                 "حل واجب محاضرة 2 ملف 7": "https://www.youtube.com/embed/aq_e4zo_Jro?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            3:{
+                tag: ["video", "video"],
+                title: "محاضرة 3 تابع قوانين الاسس",
+                "فيديو شرح محاضرة 3 تابع قوانين الاسس": "https://www.youtube.com/embed/iG-6hZphFsE?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "حل واجب محاضرة 3 ملف 7": "https://www.youtube.com/embed/Rr5mEJygqVM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
             }
         }
     },

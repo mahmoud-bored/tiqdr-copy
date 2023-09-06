@@ -79,6 +79,7 @@ html body header .page-switchers-container {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
+  padding: 10px 10px;
 }
 html body header .page-switchers-container .page-switch {
   font-size: 0.9em;

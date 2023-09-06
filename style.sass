@@ -12,6 +12,8 @@ html
         display: flex
         align-items: center
         flex-direction: column
+        .hidden
+            display: none
         .iframe-container
             position: fixed
             top: 0
@@ -44,14 +46,45 @@ html
             width: 100%
             background-color: #333
             display: flex
-            justify-content: center
+            justify-content: space-between
             align-items: center
+            padding: 0 40px 0 20px
             box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.47)
             z-index: 1
-            h1
-                color: #fe6602
-                font-weight: bold
-                margin-bottom: 11px
+            .header-title-container
+                display: flex
+                justify-content: center
+                width: 100%
+                h1
+                    color: #fe6602
+                    font-weight: bold
+                    margin-bottom: 11px
+            .page-switchers-container
+                width: 220px
+                height: 35px
+                background-color: #222
+                border-radius: 25px
+                display: flex
+                justify-content: space-evenly
+                align-items: center
+                flex-direction: row-reverse
+                .page-switch
+                    font-size: 0.9em
+                    color: #fff
+                    width: 60px
+                    height: 25px
+                    background-color: #222
+                    border-radius: 25px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    transition: background-color 0.3s ease
+                    &:hover
+                        background-color: #545454
+                .page-switch-active
+                    background-color: #545454
+
         main
             height: 100%
             width: 90%
@@ -72,7 +105,7 @@ html
                     margin-bottom: 30px
                     .title-container
                         height: 50px
-                        width: 150px
+                        width: 180px
                         display: flex
                         justify-content: center
                         align-items: center
@@ -91,9 +124,10 @@ html
                         min-width: 350px
                         max-width: 350px
                         background-color: #333
+                        padding-top: 20px
                         .group-section-container
                             width: 90%
-                            margin-top: 35px
+                            margin-top: 20px
                             direction: rtl
                             .group-title
                                 font-size: 1.1em
@@ -125,8 +159,6 @@ html
                                         margin-right: 10px
                                         margin-bottom: 2px
 
-
-                            
                         hr
                             height: 2px
                             width: 90%

@@ -1,4 +1,4 @@
-const cards = {
+const cardsContainer1 = {
     card1: {
         title: "الأسبوع الأول",
         sections: {
@@ -321,19 +321,961 @@ const cards = {
     card8: {
         title: "تجميعات شاملة",
         sections: {
+
             0:{
                 tag: [],
-                title: "NaN"
-            }
+                title: "NaN",
+            },
         }
     },
 }
-const test1 = ["أ", "أ", "ب", "ج", "ب", "أ", "ج", "ب", "ب", "أ", "ج", "ج", "ب", "أ", "ج", "أ", "ج", "أ", "ج", "أ", "أ", "ب", "ج", "ب", "أ", "ب", "ج", "ب", "ب", "أ",]
-const test2 = ['ج','د','أ','أ','ب','أ','ب','ب','ب','ب','ج','ج','ب','ب','ج','ج','ب','د','أ','ج',]
-function createCards(cardsObj){
-    const main = document.querySelector('main')
+const cardsContainer2 = {
+    card1: {
+        title: "نماذج 1 إلى 10",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "الاستثمار و الامطار الكونية",
+                "ملف النموذج محلول": "",
+                "الاستثمار و الامطار الكونية ": "https://www.youtube.com/embed/ARPnhqNKwWQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "البترول و عمل الاطفال",
+                "ملف النموذج محلول": "",
+                "البترول و عمل الاطفال ": "https://www.youtube.com/embed/cyWL5IRj9-E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "التلوث و الكسوف",
+                "ملف النموذج محلول": "",
+                "التلوث و الكسوف ": "https://www.youtube.com/embed/ATBi5Dcbftk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "التمركز و المنتديات",
+                "ملف النموذج محلول": "",
+                "التمركز و المنتديات ": "https://www.youtube.com/embed/bCi39rDwSxc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الزلازل و خداع العناوين",
+                "ملف النموذج محلول": "",
+                "الزلازل و خداع العناوين ": "https://www.youtube.com/embed/RkTsrwT_Qd0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "العادات و الاوبئة",
+                "ملف النموذج محلول": "",
+                "العادات و الاوبئة ": "https://www.youtube.com/embed/iGmnZ0ODIOI?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "القدرات الدماغية و البنوك",
+                "ملف النموذج محلول": "",
+                "القدرات الدماغية و البنوك ": "https://www.youtube.com/embed/19TPS9m5moU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "النفايات و الانشطة اليومية",
+                "ملف النموذج محلول": "",
+                "النفايات و الانشطة اليومية ": "https://www.youtube.com/embed/KZduSb-hzog?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "النفايات و التقويم",
+                "ملف النموذج محلول": "",
+                "النفايات و التقويم ": "https://www.youtube.com/embed/s7vvJ_fSsOE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "النفايات و عمل الاطفال",
+                "ملف النموذج محلول": "",
+                "النفايات و عمل الاطفال ": "https://www.youtube.com/embed/VF2IR-UbERg?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        }
+    },
+    card2: {
+        title: "نماذج 11 إلى 20",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "نموذج احتياجات الانسان و السمع",
+                "ملف النموذج محلول": "",
+                "نموذج  احتياجات الانسان و السمع ": "https://www.youtube.com/embed/KoyfRNsoQfM?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "اقدم نسخ القران و الخليج العربي",
+                "ملف النموذج محلول": "",
+                "اقدم نسخ القران و الخليج العربي ": "https://www.youtube.com/embed/0UygB0QZMWQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التعمية و عمل الاطفال",
+                "ملف النموذج محلول": "",
+                "نموذج التعمية و عمل الاطفال ": "https://www.youtube.com/embed/KWMk0pRW3Vg?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التلوث و قياس الراي العام",
+                "ملف النموذج محلول": "",
+                "نموذج التلوث و قياس الراي العام ": "https://www.youtube.com/embed/h1VE5qo383s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التمركز و الازياء",
+                "ملف النموذج محلول": "",
+                "نموذج التمركز و الازياء ": "https://www.youtube.com/embed/DHAvWUuX0BA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التمركز و التشفير",
+                "ملف النموذج محلول": "",
+                "نموذج التمركز و التشفير ": "https://www.youtube.com/embed/vI4iDRwJ2VY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التمركز و الغزال",
+                "ملف النموذج محلول": "",
+                "نموذج التمركز و الغزال ": "https://www.youtube.com/embed/qkxOSheceYc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الطب و المناعة",
+                "ملف النموذج محلول": "",
+                "نموذج الطب و المناعة ": "https://www.youtube.com/embed/pIF_JEbhyQk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "نموذج سالك و البصمة",
+                "ملف النموذج محلول": "",
+                "نموذج سالك و البصمة ": "https://www.youtube.com/embed/EEkQUZxb0Zo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "نموذج سالك و القدرات الدماغية",
+                "ملف النموذج محلول": "",
+                "نموذج سالك و القدرات الدماغية ": "https://www.youtube.com/embed/32_Wk-5sj4o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        },
+    },
+    card3: {
+        title: "نماذج 21 إلى 30",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "نموذج ابو الاسود الدؤلي",
+                "ملف النموذج محلول": "",
+                "نموذج ابو الاسود الدؤلي ": "https://www.youtube.com/embed/fT6QC_I1Hk8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "نموذج ابو حيان و العادة الارادية",
+                "ملف النموذج محلول": "",
+                "نموذج ابو حيان و العادة الارادية ": "https://www.youtube.com/embed/A4ntFdnB8m0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "نموذج البصمة و النجاح",
+                "ملف النموذج محلول": "",
+                "نموذج البصمة و النجاح ": "https://www.youtube.com/embed/wE5KxmFGB3E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التعليم عن بعد و الحج و الهدية",
+                "ملف النموذج محلول": "",
+                "نموذج التعليم عن بعد و الحج و الهدية ": "https://www.youtube.com/embed/N5zthwJipFU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الزيوت و فصول السنة",
+                "ملف النموذج محلول": "",
+                "الزيوت و فصول السنة ": "https://www.youtube.com/embed/fT6QC_I1Hk8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الشعر و التنفس و الاوبئة",
+                "ملف النموذج محلول": "",
+                "الشعر و التنفس و الاوبئة ": "https://www.youtube.com/embed/qZTK16qXHSQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الفوليك",
+                "ملف النموذج محلول": "",
+                "نموذج الفوليك ": "https://www.youtube.com/embed/Iwf4p4bykrU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "القبرة و الشعر",
+                "ملف النموذج محلول": "",
+                "القبرة و الشعر ": "https://www.youtube.com/embed/atnj1f4Zx7U?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=11",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "الماسح الزلزالي",
+                "ملف النموذج محلول": "",
+                "الماسح الزلزالي ": "https://www.youtube.com/embed/YaQjoAYjklU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=12",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "المراهقين و التلوث البيئ",
+                "ملف النموذج محلول": "",
+                "المراهقين و التلوث البيئ ": "https://www.youtube.com/embed/lhUfEn7U31c?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
+                "": "",
+            },
+        },
+    },
+    card4: {
+        title: "نماذج 31 إلى 40",
+        sections: {
 
+            0:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الادوية و الشيخوخة",
+                "ملف النموذج محلول": "",
+                "نموذج الادوية و الشيخوخة ": "https://www.youtube.com/embed/hCFk6dPCbO8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الافيال و الكوارث الطبيعية",
+                "ملف النموذج محلول": "",
+                "نموذج الافيال و الكوارث الطبيعية ": "https://www.youtube.com/embed/vIwejBL_5C8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "نموذج البطالة و النفلونزا",
+                "ملف النموذج محلول": "",
+                "نموذج البطالة و النفلونزا ": "https://www.youtube.com/embed/Sc3TH8ccQxI?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التجارة و المكتبات",
+                "ملف النموذج محلول": "",
+                "نموذج التجارة و المكتبات ": "https://www.youtube.com/embed/izezFX2Zo9k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "التصحر و الغيوم",
+                "ملف النموذج محلول": "",
+                "التصحر و الغيوم ": "https://www.youtube.com/embed/564llcwNJnM?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "نموذج التواصل و الخلى و الشجى",
+                "ملف النموذج محلول": "",
+                "نموذج التواصل و الخلى و الشجى ": "https://www.youtube.com/embed/8yEvxAiHtl8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الحضارة و الانفتاح",
+                "ملف النموذج محلول": "",
+                "نموذج الحضارة و الانفتاح ": "https://www.youtube.com/embed/lng0x88FCf8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الربوة و الخوف",
+                "ملف النموذج محلول": "",
+                "نموذج الربوة و الخوف ": "https://www.youtube.com/embed/5BvQLxjf-kQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "نموذج الزعفران و الزيوت",
+                "ملف النموذج محلول": "",
+                "نموذج الزعفران و الزيوت ": "https://www.youtube.com/embed/lHlX2Bvas74?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "نموذج القلب و دمج الملح باليود",
+                "ملف النموذج محلول": "",
+                "نموذج القلب و دمج الملح باليود ": "undefined",
+                "": "",
+            },
+        },
+    },
+    card5: {
+        title: "نماذج 41 إلى 50",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "البرك الشمسية و الانزيمات",
+                "ملف النموذج محلول": "",
+                "البرك الشمسية و الانزيمات ": "https://www.youtube.com/embed/Tu7PgIwGq2M?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "التجارة الالكترونية 2",
+                "ملف النموذج محلول": "",
+                "التجارة الالكترونية 2 ": "https://www.youtube.com/embed/PIwTIHr1cII?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "التقرير و الفهم الدقيق",
+                "ملف النموذج محلول": "",
+                "التقرير و الفهم الدقيق ": "https://www.youtube.com/embed/rjCEFC3xdqA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "التقرير و نعمة البصر",
+                "ملف النموذج محلول": "",
+                "التقرير و نعمة البصر ": "https://www.youtube.com/embed/U7L77XPpHKw?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الطيور و التشفير",
+                "ملف النموذج محلول": "",
+                "الطيور و التشفير ": "https://www.youtube.com/embed/3M5fShv5MKw?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "العادات و مصادر تلوث الهواء",
+                "ملف النموذج محلول": "",
+                "العادات و مصادر تلوث الهواء ": "https://www.youtube.com/embed/Pef5ylaGotk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "الغزلان و تنقية المياة",
+                "ملف النموذج محلول": "",
+                "الغزلان و تنقية المياة ": "https://www.youtube.com/embed/dmn2kQHECMo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "اللؤلؤ و السيوف",
+                "ملف النموذج محلول": "",
+                "اللؤلؤ و السيوف ": "https://www.youtube.com/embed/v8TtlRavhD0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "المكتبات و الشعر و التنفس",
+                "ملف النموذج محلول": "",
+                "المكتبات و الشعر و التنفس ": "https://www.youtube.com/embed/fE50A5IPocs?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "المهن و التهاب اللوزتين",
+                "ملف النموذج محلول": "",
+                "المهن و التهاب اللوزتين ": "https://www.youtube.com/embed/YFdS7SPaYgk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        },
+    },
+    card6: {
+        title: "نماذج 51 إلى 60",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "الاوربيون و الانتحار",
+                "ملف النموذج محلول": "",
+                "الاوربيون و الانتحار ": "https://www.youtube.com/embed/BX-Ynhs2Je8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "التعليم عن بعد و الكولسترول",
+                "ملف النموذج محلول": "",
+                "التعليم عن بعد و الكولسترول ": "https://www.youtube.com/embed/hcspIgydP1E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "الجيوموروفيا و تجفيف المحاصيل",
+                "ملف النموذج محلول": "",
+                "الجيوموروفيا و تجفيف المحاصيل ": "https://www.youtube.com/embed/zBkVbXSNb-4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "الرياح و المكتبات",
+                "ملف النموذج محلول": "",
+                "الرياح و المكتبات ": "https://www.youtube.com/embed/LAe0oq8_ugY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الصفدي و الارشيف",
+                "ملف النموذج محلول": "",
+                "الصفدي و الارشيف ": "https://www.youtube.com/embed/OGEe8jQD3Vg?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "العقرب و التنمية و النمو",
+                "ملف النموذج محلول": "",
+                "العقرب و التنمية و النمو ": "https://www.youtube.com/embed/fOzO-nNB8Rc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "القراءة و الزجاج",
+                "ملف النموذج محلول": "",
+                "القراءة و الزجاج ": "https://www.youtube.com/embed/3T27GW8MxuU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "الكهوف و مراتب الفهم",
+                "ملف النموذج محلول": "",
+                "الكهوف و مراتب الفهم ": "https://www.youtube.com/embed/nfoz7d3abuo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "الندوة و القراءة",
+                "ملف النموذج محلول": "",
+                "الندوة و القراءة ": "https://www.youtube.com/embed/Nz2dznPJp9E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "النفايات و تقليم الاشجار",
+                "ملف النموذج محلول": "",
+                "النفايات و تقليم الاشجار ": "https://www.youtube.com/embed/ORXvrRd2z50?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        },
+    },
+    card7: {
+        title: "نماذج 61 إلى 70",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "الاسد و الثعلب و العقرب",
+                "ملف النموذج محلول": "",
+                "الاسد و الثعلب و العقرب ": "https://www.youtube.com/embed/omh-5SjEBTY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+    
+            1:{
+                tag: ["file", "video", "test"],
+                title: "الامطار الحمضية و القمر",
+                "ملف النموذج محلول": "",
+                "الامطار الحمضية و القمر ": "https://www.youtube.com/embed/NMQPYaU0h04?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+    
+            2:{
+                tag: ["file", "video", "test"],
+                title: "الرعد و استراتيجيات التعلم",
+                "ملف النموذج محلول": "",
+                "الرعد و استراتيجيات التعلم ": "https://www.youtube.com/embed/dtSlxnGH4g8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+    
+            3:{
+                tag: ["file", "video", "test"],
+                title: "الطنبوري القديم",
+                "ملف النموذج محلول": "",
+                "الطنبوري القديم ": "https://www.youtube.com/embed/9mkkEQ-4v5k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+
+            4:{
+                tag: ["file", "video", "test"],
+                title: "العادات و الخدم",
+                "ملف النموذج محلول": "",
+                "العادات و الخدم ": "https://www.youtube.com/embed/eO2crC55ys8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+    
+            5:{
+                tag: ["file", "video", "test"],
+                title: "بلوتو و الذباب",
+                "ملف النموذج محلول": "",
+                "بلوتو و الذباب ": "https://www.youtube.com/embed/rqIniPSGvQA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+    
+            6:{
+                tag: ["file", "video", "test"],
+                title: "حشرة السمك و الكربون و الاشعة",
+                "ملف النموذج محلول": "",
+                "حشرة السمك و الكربون و الاشعة ": "https://www.youtube.com/embed/NVMkeNu9Yvc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+    
+            7:{
+                tag: ["file", "video", "test"],
+                title: "روسيا و البلاستيدات",
+                "ملف النموذج محلول": "",
+                "روسيا و البلاستيدات ": "https://www.youtube.com/embed/RhnSa_NsIYw?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+    
+            8:{
+                tag: ["file", "video", "test"],
+                title: "كسوة الكعبة",
+                "ملف النموذج محلول": "",
+                "كسوة الكعبة ": "https://www.youtube.com/embed/sDB5NZmJQoQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+    
+            9:{
+                tag: ["file", "video", "test"],
+                title: "واقع البحث العلمي",
+                "ملف النموذج محلول": "",
+                "واقع البحث العلمي ": "https://www.youtube.com/embed/n_qKDGtoCug?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        },
+    },
+    card8: {
+        title: "نماذج 71 إلى 80",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "ابن عرس و الهيبرتكست",
+                "ملف النموذج محلول": "",
+                "ابن عرس و الهيبرتكست ": "https://www.youtube.com/embed/SvIE8m-4QMA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+    
+            1:{
+                tag: ["file", "video", "test"],
+                title: "الاوزون و التلفاز و السرطان",
+                "ملف النموذج محلول": "",
+                "الاوزون و التلفاز و السرطان ": "https://www.youtube.com/embed/Yl2Q-3wIC7o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+    
+            2:{
+                tag: ["file", "video", "test"],
+                title: "البصمة و المطاط",
+                "ملف النموذج محلول": "",
+                "البصمة و المطاط ": "https://www.youtube.com/embed/ztJJUl8804w?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+    
+            3:{
+                tag: ["file", "video", "test"],
+                title: "التعمية و التقويم",
+                "ملف النموذج محلول": "",
+                "التعمية و التقويم ": "https://www.youtube.com/embed/3BMnhQ4wqOE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+    
+            4:{
+                tag: ["file", "video", "test"],
+                title: "التمر و المنظمات الاسلامية",
+                "ملف النموذج محلول": "",
+                "التمر و المنظمات الاسلامية ": "https://www.youtube.com/embed/IQIQ1xreqTE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+    
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الحسد و اثار الفضاء",
+                "ملف النموذج محلول": "",
+                "الحسد و اثار الفضاء ": "https://www.youtube.com/embed/7BTAz7LToOo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+    
+            6:{
+                tag: ["file", "video", "test"],
+                title: "الخلق و السلاح النووي",
+                "ملف النموذج محلول": "",
+                "الخلق و السلاح النووي ": "https://www.youtube.com/embed/Ptfn8yIAtKE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+    
+            7:{
+                tag: ["file", "video", "test"],
+                title: "الصداقة و التقطير",
+                "ملف النموذج محلول": "",
+                "الصداقة و التقطير ": "https://www.youtube.com/embed/H9vwdCjzxLk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+
+            8:{
+                tag: ["file", "video", "test"],
+                title: "الكتاتيب و الطفل",
+                "ملف النموذج محلول": "",
+                "الكتاتيب و الطفل ": "https://www.youtube.com/embed/I8Co-pj4uDY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+    
+            9:{
+                tag: ["file", "video", "test"],
+                title: "الندوة و شيخوخة الاطفال",
+                "ملف النموذج محلول": "",
+                "الندوة و شيخوخة الاطفال ": "https://www.youtube.com/embed/4KVkru8AVsk?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "": "",
+            },
+        },
+    },
+    card9: {
+        title: "نموذج 81 إلى 89",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "التعلم عن بعد و لغة الضاد",
+                "ملف النموذج محلول": "",
+                "التعلم عن بعد و لغة الضاد ": "https://www.youtube.com/embed/xKlvHcvERTY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "": "",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "الجيوموروفولجيا والذهبي",
+                "ملف النموذج محلول": "",
+                "الجيوموروفولجيا والذهبي ": "https://www.youtube.com/embed/6nXRJpajRY0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "": "",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "الحج و الرجولة",
+                "ملف النموذج محلول": "",
+                "الحج و الرجولة ": "https://www.youtube.com/embed/7yYhhmdcR5k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "": "",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "الزهراوي و التصحر",
+                "ملف النموذج محلول": "",
+                "الزهراوي و التصحر ": "https://www.youtube.com/embed/Pu88ho6Fui8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "": "",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "السرطان و التفكير",
+                "ملف النموذج محلول": "",
+                "السرطان و التفكير ": "https://www.youtube.com/embed/pCNoJp_xU_w?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "": "",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الصفدي و علم الفلك",
+                "ملف النموذج محلول": "",
+                "الصفدي و علم الفلك ": "https://www.youtube.com/embed/ymlhAt28AGE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+                "": "",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "المبيدات و القدرات الدماغية",
+                "ملف النموذج محلول": "",
+                "المبيدات و القدرات الدماغية ": "https://www.youtube.com/embed/vDbC1CaRik4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "": "",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "الندوة و القدرات الدماغية 1",
+                "ملف النموذج محلول": "",
+                "الندوة و القدرات الدماغية 1 ": "https://www.youtube.com/embed/We-dNLOAgio?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "": "",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "موزنبيق و الامطار الحمضية",
+                "ملف النموذج محلول": "",
+                "موزنبيق و الامطار الحمضية ": "https://www.youtube.com/embed/CDhdpwwid8Q?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "": "",
+            },
+        },
+    },
+    card10: {
+        title: "نماذج قديمة: 1 إلى 10",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "الفشل الكلوي و التصحر و الغيوم ( قليل الظهور )",
+                "ملف النموذج محلول": "",
+                "الفشل الكلوي و التصحر و الغيوم ( قليل الظهور ) ": "https://www.youtube.com/embed/Gal8g10KWak?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "السمع و التواصل و احتياجات الانسان( قليل الظهور )",
+                "ملف النموذج محلول": "",
+                "السمع و التواصل و احتياجات الانسان ( قليل الظهور ) ": "https://www.youtube.com/embed/eMqyBlbgWc4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "البحث العلمي و التمركز و المنتديات ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "البحث العلمي و التمركز و المنتديات ( قليلة الظهور ) ": "https://www.youtube.com/embed/wgLkDHKwS0o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "الصداقة و التقطير و الاكسجين( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الصداقة و التقطير و الاكسجين ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الموجات الصوتية و السلوك الانساني( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الموجات الصوتية و السلوك الانساني ( قليلة الظهور ) ": "https://www.youtube.com/embed/4sxl-QTvj5s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الغزلان و تنقية المياة( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الغزلان و تنقية المياة ( قليلة الظهور ) ": "https://www.youtube.com/embed/J9jVdKnJZd0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "الهيبرتكست و ابن عرس ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الهيبرتكست و ابن عرس ( قليلة الظهور ) ": "https://www.youtube.com/embed/4joKc_BlISs?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "تنقية الهواء و ردود الافعال( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "تنقية الهواء و ردود الافعال ( قليلة الظهور ) ": "https://www.youtube.com/embed/5DHfe7brS8g?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "الفوليك( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الفوليك ( قليلة الظهور ) ": "https://www.youtube.com/embed/pf9T1vQ6f2E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "الطنبوري الجديد( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الطنبوري الجديد ( قليلة الظهور ) ": "https://www.youtube.com/embed/CGyd_DDlXZE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+            },
+        },
+    },
+    card11: {
+        title: "نماذج قديمة: 11 إلى 20",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "ابو جعفر المنصور و سرطان المثانة( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/K6ykHOk3ecA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=11",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "الطيور و الاكسجين( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الطيور و الاكسجين ( قليلة الظهور ) ": "https://www.youtube.com/embed/PKfXb-iyofM?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=12",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "الطيور و الاكسجين تجميع ثاني( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الطيور و الاكسجين تجميع ثاني ( قليلة الظهور ) ": "https://www.youtube.com/embed/DTjDiQA-5cc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "التجارة و التصوير 1( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "التجارة و التصوير 1 ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "التجارة و التصوير 2( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "التجارة و التصوير 2 ( قليلة الظهور ) ": "https://www.youtube.com/embed/SibF71mfDvQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=15",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الاسهم المنطلقة و السيوف و الجمال( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الاسهم المنطلقة و السيوف و الجمال ( قليلة الظهور ) ": "https://www.youtube.com/embed/AnT6wDrlcUI?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=16",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "الغزلان و العالم الافتراضي( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الغزلان و العالم الافتراضي ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=17",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "التجارة الالكترونية 1 ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "التجارة الالكترونية 1 ( قليلة الظهور ) ": "https://www.youtube.com/embed/TVy8qNuj9j8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=18",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "التعليم عن بعد و الجثة( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "التعليم عن بعد و الجثة ( قليلة الظهور ) ": "https://www.youtube.com/embed/aJzdhaMZv5g?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=19",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "سالك و الحضارة( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "سالك و الحضارة ( قليلة الظهور ) ": "https://www.youtube.com/embed/YnhxG0EcKdc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=20",
+                
+            },
+        },
+    },
+    card12: {
+        title: "نماذج قديمة: 21 إلى 30",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "سالك و العالم الافتراضي( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "سالك و العالم الافتراضي ( قليلة الظهور ) ": "https://www.youtube.com/embed/PeYc8dJVa_k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=21",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "ابو حيان و الاحصاء 2( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "ابو حيان و الاحصاء 2 ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=22",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "الصفدي( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الصفدي ( قليلة الظهور ) ": "https://www.youtube.com/embed/pAqee4V6eYQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=23",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "جورج و الكولسترول( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "جورج و الكولسترول ( قليلة الظهور ) ": "https://www.youtube.com/embed/DKhN7rruuBo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=24",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "الكولسترول و لغة الضاد( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الكولسترول و لغة الضاد ( قليلة الظهور ) ": "https://www.youtube.com/embed/qnMKHdPr9Vc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=25",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "العالم الافتراضي و الملح الصخري( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "العالم الافتراضي و الملح الصخري ( قليلة الظهور ) ": "https://www.youtube.com/embed/mNS3n9RkO7Y?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=26",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "الخوارزمي و الانظة الجزيئية( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الخوارزمي و الانظة الجزيئية ( قليلة الظهور ) ": "https://www.youtube.com/embed/zTErQLMFa9k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=27",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "الكسوف و الخسوف( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الكسوف و الخسوف ( قليلة الظهور ) ": "https://www.youtube.com/embed/3kA91njgx_o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=28",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "ابو جعفر المنصور و سرطان المثانة( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/fRaI2BGmE9s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=29",
+            },
+            9:{
+                tag: ["file", "video", "test"],
+                title: "المؤسسات و القابة الادارية( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/fRaI2BGmE9s?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) / تابع فيديو شرح النموذج": "https://www.youtube.com/embed/J41l2isKe1s?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+            },
+        },
+    },
+    card13: {
+        title: "نماذج قديمة: 31 إلى 39",
+        sections: {
+            0:{
+                tag: ["file", "video", "test"],
+                title: "الامطار الكونية و السلوك الانساني ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "المؤسسات و القابة الادارية ( قليلة الظهور ) ": "https://www.youtube.com/embed/8aPznELJEuY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=31",
+            },
+            1:{
+                tag: ["file", "video", "test"],
+                title: "السمنة و الحديد و اليود ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الامطار الكونية و السلوك الانساني ( قليلة الظهور ) ": "https://www.youtube.com/embed/6a7e-QDQVoQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=32",
+            },
+            2:{
+                tag: ["file", "video", "test"],
+                title: "ضغط الدم و القرأة ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "السمنة و الحديد و اليود ( قليلة الظهور ) ": "https://www.youtube.com/embed/VMw2zNUJdRU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=33",
+            },
+            3:{
+                tag: ["file", "video", "test"],
+                title: "الخوارزمي و الزجاج( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "ضغط الدم و القرأة ( قليلة الظهور ) ": "https://www.youtube.com/embed/ZLGqEyqX_u4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=34",
+            },
+            4:{
+                tag: ["file", "video", "test"],
+                title: "المنتديات و الخلايا و القدرات العقلية ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الخوارزمي و الزجاج ( قليلة الظهور ) ": "https://www.youtube.com/embed/b0AKz02hynw?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=35",
+            },
+            5:{
+                tag: ["file", "video", "test"],
+                title: "الذكاء الاجتماعي و الغلاف الجوي( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "المنتديات و الخلايا و القدرات العقلية ( قليلة الظهور ) ": "https://www.youtube.com/embed/yzRXe_GkAGo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=36",
+            },
+            6:{
+                tag: ["file", "video", "test"],
+                title: "كسوة الكعبة تجميع ثاني ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الذكاء الاجتماعي و الغلاف الجوي ( قليلة الظهور ) ": "https://www.youtube.com/embed/mEspbMCdrBA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=37",
+            },
+            7:{
+                tag: ["file", "video", "test"],
+                title: "الخوارزمي و الانظمة الجزيئية تجميع قديم جدا ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "كسوة الكعبة تجميع ثاني ( قليلة الظهور ) ": "https://www.youtube.com/embed/zTErQLMFa9k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=38",
+            },
+            8:{
+                tag: ["file", "video", "test"],
+                title: "البيئة و الادوية و التكنولوجيا ( قليلة الظهور )",
+                "ملف النموذج محلول": "",
+                "الخوارزمي و الانظمة الجزيئية تجميع قديم جدا ( قليلة الظهور ) ": "https://www.youtube.com/embed/3CaIw1cy3io?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=39",
+            },
+        },
+    },
 }
+
+
 function createNewCardContainer(cardInfo, card){
     // Create Outer Container
     const cardContainer = document.createElement('div')
@@ -408,13 +1350,35 @@ function createNewCardContainer(cardInfo, card){
     return cardContainer
 }
 
-const scrollContainer = document.createElement('div')
-scrollContainer.classList.add('flex-container')
-for (const card in cards) {
-    scrollContainer.appendChild(createNewCardContainer(cards[card], card))
+function createPage(cardList, parent){
+    let scrollContainer = document.createElement('div')
+    scrollContainer.classList.add('flex-container')
+    for (const card in cardList) {
+        scrollContainer.appendChild(createNewCardContainer(cardList[card], card))
+    }
+    document.querySelector(`main.${parent}`).appendChild(scrollContainer)
 }
-document.querySelector('main').appendChild(scrollContainer)
+createPage(cardsContainer1, "page-1")
+createPage(cardsContainer2, "page-3")
 
+
+
+
+function switchPage(pageNum){
+    document.querySelectorAll('main').forEach(elmnt=>{
+        if(!elmnt.classList.contains('hidden')){
+            elmnt.classList.add('hidden')
+        }
+    })
+    document.querySelector(`.page-${pageNum}`).classList.remove('hidden')
+    
+    document.querySelectorAll('.page-switch').forEach(elmnt=>{
+        if(elmnt.classList.contains('page-switch-active')){
+            elmnt.classList.remove('page-switch-active')
+        }
+    })
+    document.querySelector(`.page-switch-${pageNum}`).classList.add('page-switch-active')
+}
 function killIframe() {
     let iframe = document.querySelector('.iframe-container')
     let iframeKiller = document.querySelector('.iframe-container-killer')

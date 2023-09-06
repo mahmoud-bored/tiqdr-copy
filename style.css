@@ -16,6 +16,9 @@ html body {
   align-items: center;
   flex-direction: column;
 }
+html body .hidden {
+  display: none;
+}
 html body .iframe-container {
   position: fixed;
   top: 0;
@@ -51,15 +54,50 @@ html body header {
   width: 100%;
   background-color: #333;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 40px 0 20px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.47);
   z-index: 1;
 }
-html body header h1 {
+html body header .header-title-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+html body header .header-title-container h1 {
   color: #fe6602;
   font-weight: bold;
   margin-bottom: 11px;
+}
+html body header .page-switchers-container {
+  width: 220px;
+  height: 35px;
+  background-color: #222;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+html body header .page-switchers-container .page-switch {
+  font-size: 0.9em;
+  color: #fff;
+  width: 60px;
+  height: 25px;
+  background-color: #222;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+html body header .page-switchers-container .page-switch:hover {
+  background-color: #545454;
+}
+html body header .page-switchers-container .page-switch-active {
+  background-color: #545454;
 }
 html body main {
   height: 100%;
@@ -84,7 +122,7 @@ html body main .flex-container .card-outer-container {
 }
 html body main .flex-container .card-outer-container .title-container {
   height: 50px;
-  width: 150px;
+  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,10 +143,11 @@ html body main .flex-container .card-outer-container .card-inner-container {
   min-width: 350px;
   max-width: 350px;
   background-color: #333;
+  padding-top: 20px;
 }
 html body main .flex-container .card-outer-container .card-inner-container .group-section-container {
   width: 90%;
-  margin-top: 35px;
+  margin-top: 20px;
   direction: rtl;
 }
 html body main .flex-container .card-outer-container .card-inner-container .group-section-container .group-title {

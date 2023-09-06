@@ -8,11 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>متقدرش</h1>
-    </header>
-    <main>
+        <div class="header-title-container">
+            <h1>متقدرش</h1>
+        </div>
         
-    </main>
+        <div class="page-switchers-container">
+            <div class="page-switch page-switch-1 page-switch-active" onclick="switchPage('1')">تأسيس</div>
+            <div class="page-switch page-switch-2" onclick="switchPage('2')">منجز 1</div>
+            <div class="page-switch page-switch-3" onclick="switchPage('3')">منجز 2</div>
+        </div>
+    </header>
+    <main class="page-1"></main>
+    <main class="page-2 hidden"></main>
+    <main class="page-3 hidden"></main>
     <script src="./main.js"></script>
 </body>
 </html>

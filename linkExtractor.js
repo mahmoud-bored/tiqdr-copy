@@ -23,15 +23,31 @@ var allVidLinks = []
 function getLink(){
   console.log(document.querySelector("div > iframe#vid1_youtube_api").src)
 	allVidLinks.push(document.querySelector("div > iframe#vid1_youtube_api").src.replace('controls=0', '').replace("fs=0", ""))
-	for(let i = 0; i < 10; i++){
-    allStr += `${i}:{
-                tag: ["file", "video", "test"],
-                title: "${cardsTitlesArr[i]}",
-                "النموذج pdf بالخطوات التفصيلية": "",
-                "${allVideoTitlesArr[i]}": "${allVidLinks[i]}",
-                "": "",
-            },
+	for(let i = 0; i < allVideoTitlesArr.length; i++){
+    allStr += `"${allVideoTitlesArr[i]}": "${allVidLinks[i]}",
             `
   }
   console.log(allStr)
 }
+
+document.onkeydown = function(e) {
+    var keyCode = e.keyCode;
+  console.log(keyCode)
+    if(keyCode == 27){
+			document.elementFromPoint(20, 25).click();
+    };
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

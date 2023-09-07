@@ -330,7 +330,93 @@ const cardsContainer1 = {
     },
 }
 const cardsContainer2 = {
-    card1: {
+    card1:{
+        title: "الإصدارات والنماذج الجديدة",
+        sections: {
+            0:{
+                tag: ["file", "file", "video", "video", "video", "test"],
+                title: "الإصدار الأول من النماذج الجديدة",
+                "الإصدار الأول منقح": "",
+                "الإصدار الأول محلول": "",
+                "فيديو شرح التمارين من 1 إلى 25": "https://www.youtube.com/embed/gfo3CB-hvbM?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
+                "فيديو شرح التمارين من 26 إلى 50": "https://www.youtube.com/embed/QrB_e5j2V7U?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
+                "فيديو شرح التمارين من 51 إلى 73": "https://www.youtube.com/embed/qkSOHftFKBo?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
+                "اختبار على الإصدار الأول": "",
+            },
+            1:{
+                tag: ["file", "file", "video", "video", "test"],
+                title: "الإصدار الثاني من النماذج الجديدة",
+                "مفاتيح حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو شرح الإصدار الثاني": "https://www.youtube.com/embed/q_hGTyftEvk?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
+                "فيديو تابع شرح الإصدار الثاني": "https://www.youtube.com/embed/X1Iq-OsLs7c?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
+                "اختبار على الإصدار الثاني": "",
+            },
+            2:{
+                tag: ["file", "file", "video", "video", "test"],
+                title: "الإصدار الثالث من النماذج الجديدة",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو 6 شرح الإصدار": "https://www.youtube.com/embed/jS22_CJUJHc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
+                "فيديو 7 تابع شرح الإصدار الثالث": "https://www.youtube.com/embed/joMok5Pl2YQ?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
+                "اختبار على الإصدار الثالث": "",
+            },
+            3:{
+                tag: ["file", "file", "video", "video", "video", "video", "video", "test"],
+                title: "الاصدار الرابع و الخامس من النماذج الجديدة",
+                "فيديو 9 شرح الاصدار الرابع و الخامس": "https://www.youtube.com/embed/V7d0on-XvvY?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
+                "فيديو 10 شرح الاصدار الرابع و الخامس": "https://www.youtube.com/embed/V7d0on-XvvY?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
+                "فيديو 11 شرح الاصدار الرابع و الخامس": "https://www.youtube.com/embed/3IyyllCdqdc?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=11",
+                "فيديو 12 شرح الاصدار الرابع و الخامس": "https://www.youtube.com/embed/KRXjGPY25Fo?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=12",
+                "فيديو 13 شرح الاصدار الرابع و الخامس": "https://www.youtube.com/embed/LCzV8jpUJ-w?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
+                "اختبار على الإصدار الرابع والخامس": "",
+            },
+            4:{
+                tag: ["file", "file", "video", "video", "test"],
+                title: "الاصدار السادس من النماذج الجديد",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو 1 شرح الاصدار السادس من تمرين 353  الى تمرين 381": "https://www.youtube.com/embed/pF4p_5IaHLU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
+                "فيديو 1 شرح الاصدار السادس من تمرين 382  الى تمرين 416": "https://www.youtube.com/embed/sm-r5yugQp8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
+                "اختبار على الإصدار السادس": "",
+            },
+            5:{
+                tag: ["file", "file", "video", "video"],
+                title: "الاصدار السابع من النماذج الجديدة",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو 13 شرح الاصدار السابع": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=15",
+                "فيديو 14 شرح الاصدار السابع": "https://www.youtube.com/embed/-VQ1cx5nrv8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=16",
+            },
+            6:{
+                tag: ["file", "file", "video", "video"],
+                title: "الاصدار الثامن من النماذج الجديدة",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو 15 شرح الاصدار الثامن": "https://www.youtube.com/embed/ey31SlcZGz0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=17",
+                "فيديو 16 تابع شرح الاصدار الثامن": "https://www.youtube.com/embed/L2VGn0Szqdo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=18",    
+            },
+            7:{
+                tag: ["file", "file", "video", "video"],
+                title: "الاصدار التاسع من النماذج الجديدة",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
+                "فيديو 17 شرح الاصدار التاسع": "https://www.youtube.com/embed/N2iHxEFOG0s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=19",
+                "فيديو 18 تابع شرح تالاصدار التاسع": "https://www.youtube.com/embed/qi_TTGGWAEY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=20",
+            }
+
+        }
+    },
+    card2:{
+        title: "باقة ملخص الرسومات البيانية",
+        sections: {
+            0:{
+                tag: [],
+                title: "NaN"
+            }
+        }
+    },
+    card3: {
         title: "نماذج 1 إلى 10",
         sections: {
             0:{
@@ -405,7 +491,7 @@ const cardsContainer2 = {
             },
         }
     },
-    card2: {
+    card4: {
         title: "نماذج 11 إلى 20",
         sections: {
             0:{
@@ -480,7 +566,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card3: {
+    card5: {
         title: "نماذج 21 إلى 30",
         sections: {
             0:{
@@ -555,7 +641,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card4: {
+    card6: {
         title: "نماذج 31 إلى 40",
         sections: {
 
@@ -631,7 +717,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card5: {
+    card7: {
         title: "نماذج 41 إلى 50",
         sections: {
             0:{
@@ -706,7 +792,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card6: {
+    card8: {
         title: "نماذج 51 إلى 60",
         sections: {
             0:{
@@ -781,7 +867,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card7: {
+    card9: {
         title: "نماذج 61 إلى 70",
         sections: {
             0:{
@@ -865,7 +951,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card8: {
+    card10: {
         title: "نماذج 71 إلى 80",
         sections: {
             0:{
@@ -949,7 +1035,7 @@ const cardsContainer2 = {
             },
         },
     },
-    card9: {
+    card11: {
         title: "نموذج 81 إلى 89",
         sections: {
             0:{
@@ -1017,130 +1103,130 @@ const cardsContainer2 = {
             },
         },
     },
-    card10: {
+    card12: {
         title: "نماذج قديمة: 1 إلى 10",
         sections: {
             0:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الفشل الكلوي و التصحر و الغيوم ( قليل الظهور )",
                 "ملف النموذج محلول": "",
                 "الفشل الكلوي و التصحر و الغيوم ( قليل الظهور ) ": "https://www.youtube.com/embed/Gal8g10KWak?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=1",
             },
             1:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "السمع و التواصل و احتياجات الانسان( قليل الظهور )",
                 "ملف النموذج محلول": "",
                 "السمع و التواصل و احتياجات الانسان ( قليل الظهور ) ": "https://www.youtube.com/embed/eMqyBlbgWc4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
             },
             2:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "البحث العلمي و التمركز و المنتديات ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "البحث العلمي و التمركز و المنتديات ( قليلة الظهور ) ": "https://www.youtube.com/embed/wgLkDHKwS0o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=3",
             },
             3:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الصداقة و التقطير و الاكسجين( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الصداقة و التقطير و الاكسجين ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=4",
             },
             4:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الموجات الصوتية و السلوك الانساني( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الموجات الصوتية و السلوك الانساني ( قليلة الظهور ) ": "https://www.youtube.com/embed/4sxl-QTvj5s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=5",
             },
             5:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الغزلان و تنقية المياة( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الغزلان و تنقية المياة ( قليلة الظهور ) ": "https://www.youtube.com/embed/J9jVdKnJZd0?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=6",
             },
             6:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الهيبرتكست و ابن عرس ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الهيبرتكست و ابن عرس ( قليلة الظهور ) ": "https://www.youtube.com/embed/4joKc_BlISs?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=7",
             },
             7:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "تنقية الهواء و ردود الافعال( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "تنقية الهواء و ردود الافعال ( قليلة الظهور ) ": "https://www.youtube.com/embed/5DHfe7brS8g?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=8",
             },
             8:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الفوليك( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الفوليك ( قليلة الظهور ) ": "https://www.youtube.com/embed/pf9T1vQ6f2E?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=9",
             },
             9:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الطنبوري الجديد( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الطنبوري الجديد ( قليلة الظهور ) ": "https://www.youtube.com/embed/CGyd_DDlXZE?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=10",
             },
         },
     },
-    card11: {
+    card13: {
         title: "نماذج قديمة: 11 إلى 20",
         sections: {
             0:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "ابو جعفر المنصور و سرطان المثانة( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/K6ykHOk3ecA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=11",
             },
             1:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الطيور و الاكسجين( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الطيور و الاكسجين ( قليلة الظهور ) ": "https://www.youtube.com/embed/PKfXb-iyofM?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=12",
             },
             2:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الطيور و الاكسجين تجميع ثاني( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الطيور و الاكسجين تجميع ثاني ( قليلة الظهور ) ": "https://www.youtube.com/embed/DTjDiQA-5cc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=13",
             },
             3:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "التجارة و التصوير 1( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "التجارة و التصوير 1 ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=14",
             },
             4:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "التجارة و التصوير 2( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "التجارة و التصوير 2 ( قليلة الظهور ) ": "https://www.youtube.com/embed/SibF71mfDvQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=15",
             },
             5:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الاسهم المنطلقة و السيوف و الجمال( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الاسهم المنطلقة و السيوف و الجمال ( قليلة الظهور ) ": "https://www.youtube.com/embed/AnT6wDrlcUI?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=16",
             },
             6:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الغزلان و العالم الافتراضي( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الغزلان و العالم الافتراضي ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=17",
             },
             7:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "التجارة الالكترونية 1 ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "التجارة الالكترونية 1 ( قليلة الظهور ) ": "https://www.youtube.com/embed/TVy8qNuj9j8?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=18",
             },
             8:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "التعليم عن بعد و الجثة( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "التعليم عن بعد و الجثة ( قليلة الظهور ) ": "https://www.youtube.com/embed/aJzdhaMZv5g?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=19",
             },
             9:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "سالك و الحضارة( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "سالك و الحضارة ( قليلة الظهور ) ": "https://www.youtube.com/embed/YnhxG0EcKdc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=20",
@@ -1148,65 +1234,65 @@ const cardsContainer2 = {
             },
         },
     },
-    card12: {
+    card14: {
         title: "نماذج قديمة: 21 إلى 30",
         sections: {
             0:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "سالك و العالم الافتراضي( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "سالك و العالم الافتراضي ( قليلة الظهور ) ": "https://www.youtube.com/embed/PeYc8dJVa_k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=21",
             },
             1:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "ابو حيان و الاحصاء 2( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "ابو حيان و الاحصاء 2 ( قليلة الظهور ) ": "https://www.youtube.com/embed/null?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=22",
             },
             2:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الصفدي( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الصفدي ( قليلة الظهور ) ": "https://www.youtube.com/embed/pAqee4V6eYQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=23",
             },
             3:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "جورج و الكولسترول( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "جورج و الكولسترول ( قليلة الظهور ) ": "https://www.youtube.com/embed/DKhN7rruuBo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=24",
             },
             4:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الكولسترول و لغة الضاد( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الكولسترول و لغة الضاد ( قليلة الظهور ) ": "https://www.youtube.com/embed/qnMKHdPr9Vc?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=25",
             },
             5:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "العالم الافتراضي و الملح الصخري( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "العالم الافتراضي و الملح الصخري ( قليلة الظهور ) ": "https://www.youtube.com/embed/mNS3n9RkO7Y?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=26",
             },
             6:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الخوارزمي و الانظة الجزيئية( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الخوارزمي و الانظة الجزيئية ( قليلة الظهور ) ": "https://www.youtube.com/embed/zTErQLMFa9k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=27",
             },
             7:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الكسوف و الخسوف( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الكسوف و الخسوف ( قليلة الظهور ) ": "https://www.youtube.com/embed/3kA91njgx_o?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=28",
             },
             8:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "ابو جعفر المنصور و سرطان المثانة( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/fRaI2BGmE9s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=29",
             },
             9:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "المؤسسات و القابة الادارية( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "ابو جعفر المنصور و سرطان المثانة ( قليلة الظهور ) ": "https://www.youtube.com/embed/fRaI2BGmE9s?&modestbranding=1&rel=0&showinfo=0&loop=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=2",
@@ -1214,59 +1300,59 @@ const cardsContainer2 = {
             },
         },
     },
-    card13: {
+    card15: {
         title: "نماذج قديمة: 31 إلى 39",
         sections: {
             0:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الامطار الكونية و السلوك الانساني ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "المؤسسات و القابة الادارية ( قليلة الظهور ) ": "https://www.youtube.com/embed/8aPznELJEuY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=31",
             },
             1:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "السمنة و الحديد و اليود ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الامطار الكونية و السلوك الانساني ( قليلة الظهور ) ": "https://www.youtube.com/embed/6a7e-QDQVoQ?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=32",
             },
             2:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "ضغط الدم و القرأة ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "السمنة و الحديد و اليود ( قليلة الظهور ) ": "https://www.youtube.com/embed/VMw2zNUJdRU?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=33",
             },
             3:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الخوارزمي و الزجاج( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "ضغط الدم و القرأة ( قليلة الظهور ) ": "https://www.youtube.com/embed/ZLGqEyqX_u4?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=34",
             },
             4:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "المنتديات و الخلايا و القدرات العقلية ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الخوارزمي و الزجاج ( قليلة الظهور ) ": "https://www.youtube.com/embed/b0AKz02hynw?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=35",
             },
             5:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الذكاء الاجتماعي و الغلاف الجوي( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "المنتديات و الخلايا و القدرات العقلية ( قليلة الظهور ) ": "https://www.youtube.com/embed/yzRXe_GkAGo?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=36",
             },
             6:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "كسوة الكعبة تجميع ثاني ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الذكاء الاجتماعي و الغلاف الجوي ( قليلة الظهور ) ": "https://www.youtube.com/embed/mEspbMCdrBA?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=37",
             },
             7:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "الخوارزمي و الانظمة الجزيئية تجميع قديم جدا ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "كسوة الكعبة تجميع ثاني ( قليلة الظهور ) ": "https://www.youtube.com/embed/zTErQLMFa9k?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=38",
             },
             8:{
-                tag: ["file", "video", "test"],
+                tag: ["file", "video"],
                 title: "البيئة و الادوية و التكنولوجيا ( قليلة الظهور )",
                 "ملف النموذج محلول": "",
                 "الخوارزمي و الانظمة الجزيئية تجميع قديم جدا ( قليلة الظهور ) ": "https://www.youtube.com/embed/3CaIw1cy3io?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=39",

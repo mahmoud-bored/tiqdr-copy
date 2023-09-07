@@ -403,6 +403,12 @@ const cardsContainer2 = {
                 "الإصدار pdf محلول": "",
                 "فيديو 17 شرح الاصدار التاسع": "https://www.youtube.com/embed/N2iHxEFOG0s?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=19",
                 "فيديو 18 تابع شرح تالاصدار التاسع": "https://www.youtube.com/embed/qi_TTGGWAEY?&modestbranding=1&rel=0&showinfo=0&loop=0&&hl=en&enablejsapi=1&origin=https%3A%2F%2Ftiqdr.com&widgetid=20",
+            },
+            8:{
+                tag: ["file", "file"],
+                title: "الإصدار العاشر من النماذج الجديدة",
+                "مفاتيج حل الإصدار": "",
+                "الإصدار pdf محلول": "",
             }
 
         }

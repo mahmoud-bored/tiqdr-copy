@@ -79,6 +79,7 @@ html body header .page-switchers-container {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
+  gap: 5px;
   padding: 10px 10px;
 }
 html body header .page-switchers-container .page-switch {
@@ -102,7 +103,7 @@ html body header .page-switchers-container .page-switch-active {
 }
 html body main {
   height: 100%;
-  width: 90%;
+  width: 100%;
 }
 html body main .flex-container {
   overflow: auto;
@@ -132,6 +133,7 @@ html body main .flex-container .card-outer-container .title-container {
   position: absolute;
   top: -25px;
   color: #fff;
+  text-align: center;
 }
 html body main .flex-container .card-outer-container .card-inner-container {
   display: flex;
